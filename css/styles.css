@@ -1,0 +1,21 @@
+body  {
+  background-color: wheat;
+}
+
+.definition {
+  display: none;
+}
+
+.studyword  {
+  display: none;
+}
+
+.card {
+  cursor: pointer;
+  color: #0088cc;
+
+}
+
+.card:hover {
+  text-decoration: underline;
+}
