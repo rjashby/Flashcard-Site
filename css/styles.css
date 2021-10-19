@@ -2,11 +2,15 @@ body  {
   background-color: wheat;
 }
 
-.definition {
+#javascriptdefinition {
   display: none;
 }
 
-.studyword  {
+#operatordefinition {
+  display: none;
+}
+
+#variabledefinition {
   display: none;
 }
 

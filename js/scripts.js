@@ -1,5 +1,11 @@
 $(document).ready(function() {
   $("#JavaCard").click(function() {
-    $(".definition").toggle();
+    $("#javascriptdefinition").toggle()
+  });
+  $("#operatorcard").click(function() {
+  $("#operatordefinition").toggle()
+  });
+  $("#variablecard").click(function() {
+  $("#variabledefinition").toggle()
   });
 });
