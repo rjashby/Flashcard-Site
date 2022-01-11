@@ -2,24 +2,33 @@ body  {
   background-color: wheat;
 }
 
-#javascriptdefinition {
-  display: none;
-}
-
-#operatordefinition {
-  display: none;
-}
-
-#variabledefinition {
-  display: none;
-}
-
 .card {
   cursor: pointer;
   color: #0088cc;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
 }
 
-.card:hover {
-  text-decoration: underline;
+.card p {
+  padding: 10px;
+  text-align: center;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card p {
+  display: none;
+}
+
+.showDef p {
+  display: block;
+}
+
+.showDef h4 {
+  display: none;
 }
